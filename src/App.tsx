@@ -75,6 +75,7 @@ function App() {
       {
         (showQR && url !== '') && (
         <>
+          <p><b>El link es:</b> {url}</p>
           <div className='download-controls'>
             <button onClick={onButtonClickPNG}>Descargar QR en PNG</button>
             <button onClick={onButtonClickSVG}>Descargar QR en SVG</button>
